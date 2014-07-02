@@ -6,6 +6,7 @@
       <th>Name</th>
       <th>Console</th>
       <th>Year</th>
+      <th>Picture</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
         <td><%= video_game.name %></td>
         <td><%= video_game.console %></td>
         <td><%= video_game.year %></td>
+        <td><%= video_game.picture %></td>
         <td><%= link_to 'Show', video_game %></td>
         <td><%= link_to 'Edit', edit_video_game_path(video_game) %></td>
         <td><%= link_to 'Destroy', video_game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
